@@ -1,0 +1,44 @@
+#header {
+    background-color: #ffffff;
+    height: 100px;
+    text-align: center;
+}
+#header h1 {
+    font-size: 60px;
+}
+
+#content {
+    background-color: #bcdfff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+#content div {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgb(21, 1, 77);
+  margin: 20px;
+  padding: 10px;
+  font-size: 24px;
+  height: 320px;
+}
+#content div img {
+    border-radius: 10px;
+    width: 170px;
+}
+#content div h2 {
+    font-size: 25px;
+    margin: 0;
+}
+#content div p {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+#footer {
+    background-color: #ffffff;
+    height: 100px;
+    text-align: right;
+}
+
