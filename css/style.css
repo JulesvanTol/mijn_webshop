@@ -47,7 +47,7 @@
 }
 #content2 {
     background-color: #bcdfff;
-    height: 400px;
+    height: 420px;
     display: flex;
     justify-content: center;
 }
@@ -63,7 +63,8 @@
   margin: 20px;
   padding: 10px;
   font-size: 24px;
-  height: 320px;
+  height: 350px;
+  justify-content: center;
 }
 
 #content2 div h3 {
@@ -76,5 +77,5 @@
 }
 #content2 div a {
     font-size: 15px;
-    margin-bottom: 10%;
+    margin-top: 0px;
 }
