@@ -66,16 +66,26 @@
   height: 350px;
   justify-content: center;
 }
-
 #content2 div h3 {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 0px;
 }
 #content2 div p {
     font-size: 15px;
     margin-top: -15px;
 }
+#content2 div h5 {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: -30px;
+    margin-left: 0px;
+    background-color: #1f19c2;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 115px;
+    padding: 10px;
+}
 #content2 div a {
     font-size: 15px;
-    margin-top: 0px;
+    margin-left: 240px;
 }
