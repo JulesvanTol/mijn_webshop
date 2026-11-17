@@ -1,91 +1,124 @@
+/* header background */
 #header {
     background-color: #ffffff;
     height: 100px;
     text-align: center;
 }
+
+/* header text */
 #header h1 {
     font-size: 60px;
 }
 
+/* products display background */
 #content {
-    background-color: #bcdfff;
-    height: 400px;
+    background-image: linear-gradient(to bottom, rgb(188, 215, 235), rgb(181, 225, 210));
+    height: 600px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
+/* products display items */
 #content div {
   background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 10px 10px 15px rgb(21, 1, 77);
+  box-shadow: 10px 10px 15px rgb(1, 25, 77);
   margin: 20px;
   padding: 10px;
   font-size: 24px;
-  height: 320px;
+  height: 180px;
 }
+
+/* product images */
 #content div img {
     border-radius: 10px;
-    width: 110px;
+    width: 150px;
 }
+
+/* product display names */
 #content div h3 {
     font-size: 25px;
     margin-top: 0px;
 }
+
+/* product display price */
 #content div p {
     font-size: 20px;
     margin-top: -30px;
+    margin-bottom: -10px;
 }
+
+/* product display link */
 #content div a {
     font-size: 15px;
     margin-top: 0px;
 }
 
+/* footer display */
 #footer {
     background-color: #ffffff;
     height: 100px;
     text-align: right;
 }
+
+/* detail page background */
 #content2 {
-    background-color: #bcdfff;
-    height: 420px;
+    background-image: linear-gradient(to bottom, rgb(188, 215, 235), rgb(181, 225, 210));
+    height: 380px;
     display: flex;
     justify-content: center;
 }
+
+/* detail page image */
 #content2 div img {
     border-radius: 10px;
     width: 310px;
     justify-content: center;
-}    
-    #content2 div {
+}
+
+/* detail page item */
+#content2 div {
   background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 10px 10px 15px rgb(21, 1, 77);
-  margin: 20px;
+  box-shadow: 10px 10px 15px rgb(1, 25, 77);
+  margin-top: 60px;
   padding: 10px;
   font-size: 24px;
-  height: 350px;
+  height: 210px;
   justify-content: center;
 }
+
+/* detail page price */
 #content2 div h3 {
     font-size: 25px;
-    margin-top: 0px;
+    margin-top: -200px;
+    margin-left: 340px;
 }
+
+/* detail page description */
 #content2 div p {
     font-size: 15px;
     margin-top: -15px;
+    margin-left: 340px;
 }
+
+/* detail page purchase button */
 #content2 div h5 {
     font-size: 20px;
-    margin-top: 0px;
-    margin-bottom: -30px;
+    margin-top: 30px;
+    margin-bottom: -40px;
     margin-left: 0px;
     background-color: #1f19c2;
     color: #ffffff;
     border-radius: 5px;
     width: 115px;
     padding: 10px;
+    margin-left: 340px;
 }
+
+/* detail page link */
 #content2 div a {
     font-size: 15px;
-    margin-left: 240px;
+    margin-left: 520px;
 }
