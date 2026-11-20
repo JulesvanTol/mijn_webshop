@@ -9,6 +9,14 @@
 #header h1 {
     font-size: 60px;
 }
+#header p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: -80px;
+    margin-bottom: 70px;
+    margin-left: 720px;
+    font-weight: bold;
+}
 
 /* products display background */
 #content {
@@ -39,18 +47,20 @@
 /* product display names */
 #content div h3 {
     font-size: 25px;
-    margin-top: 0px;
+    margin-top: 5px;
 }
 
 /* product display price */
 #content div p {
     font-size: 20px;
     margin-top: -30px;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
 }
 
 /* product display link */
 #content div a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 15px;
     margin-top: 0px;
 }
@@ -106,6 +116,8 @@
 /* detail page purchase button */
 #content2 div h5 {
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     margin-top: 30px;
     margin-bottom: -40px;
     margin-left: 0px;
@@ -119,6 +131,7 @@
 
 /* detail page link */
 #content2 div a {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     margin-left: 520px;
 }
